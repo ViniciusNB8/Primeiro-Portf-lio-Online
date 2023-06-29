@@ -1,0 +1,840 @@
+/* header */
+:root{
+    --corTexto: #fff;
+    --corFundo: #222222;
+    --corHeader: #fff;
+    --corNav: #a7a5a4;
+    --corNavSel: #00ffff;
+    --corTextoNav: #000000;
+    --corNavPass: #660dc7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo_gvw_header{
+    width: 90px;
+    padding-right: 20%;
+    padding-left: 22%;
+}
+
+.gvw_header{
+    width: 675px;
+    align-items: center;
+    padding-right: 3%;
+    padding-left: 2%;
+}
+
+.nav_header {
+    background-color: var(--corNav);
+    padding: 18px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.nav_header a{
+    color: var(--corTextoNav);
+    text-decoration: none;
+    padding: 18px;
+    transition: background 0.3s;
+}
+
+.nav_header a:hover{
+    background-color: var(--corNavPass);
+    color: var(--corTexto)
+}
+
+.Sel{
+    background-color: var(--corNavSel);
+    color: var(--corTexto)
+}
+
+.headerall{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--corHeader);
+    align-items: center;
+    box-shadow: 1px 1px 20px #000000;
+}
+
+/* /header */
+
+
+/* geral */
+body {
+    font-family: verdana;
+    color: #fff;
+    background-color: #222222;
+}
+/* /geral */
+
+
+/* Pag Inicial */
+.GVWdude{
+    width: 500px;
+    padding-top: 1%;
+}
+
+.GVW{
+    width: 1040px;
+    padding: 1%;
+}
+
+.Title{
+    position: absolute;
+    padding-top: 14%;
+    text-align: center;
+    padding: 14% 20%;
+    padding-left: 24%;
+}
+
+.Parag{
+    position: absolute;
+    top: 48%;
+    text-align: center;
+    padding: 10px 12%;
+}
+/* /Pag Inicial */
+
+
+/* GVW */
+.GVWdude_GVW{
+    width: 1000px;
+    padding-top: 34%;
+    z-index: 2;
+}
+
+.GVW_GVW{
+    width: 1330px;
+    padding: 0%;
+}
+
+.MainTitle_GVW{
+    position: absolute;
+    top: 17%;
+    left: 39%;
+    text-align: center;
+    z-index: 4;
+}
+
+.restauracoes{
+    position: absolute;
+    top: 24%;
+    left: 4%;
+    text-align: center;
+    z-index: 4;
+}
+
+.title1_GVW{
+    position: absolute;
+    top: 36%;
+    left: 14%;
+    z-index: 4;
+}
+
+.parag1_GVW{
+    position: absolute;
+    top: 44%;
+    padding-left: 5%;
+    padding-right: 54%;
+    font-size: medium;
+    z-index: 5;
+}
+
+.img1_GVW{
+    position: absolute;
+    width: 600px;
+    padding-top: 8%;
+    padding-left: 50%;
+    z-index: 1;
+}
+
+.title2_GVW{
+    position: absolute;
+    padding-top: 46%;
+    padding-right: 15%;
+    padding-left: 66%;
+    z-index: 3;
+}
+
+.parag2_GVW{
+    position: absolute;
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 54%;
+    font-size: medium;
+    z-index: 2;
+}
+
+.img2_GVW{
+    position: absolute;
+    width: 600px;
+    padding-top: 42%;
+    padding-left: 7%;
+    z-index: 1;
+}
+
+.title3_GVW{
+    position: absolute;
+    padding-top: 78%;
+    padding-left: 16%;
+    z-index: 2;
+}
+
+.parag3_GVW{
+    position: absolute;
+    padding-top: 82%;
+    padding-left: 5%;
+    padding-right: 54%;
+    font-size: medium;
+    z-index: 1;
+}
+
+.img3_GVW{
+    position: absolute;
+    width: 600px;
+    padding-top: 72%;
+    padding-left: 50%;
+    z-index: 0;
+}
+
+.title4_GVW{
+    position: absolute;
+    top: 218%;
+    text-align: center;
+    padding: 0% 42%;
+    z-index: 1;
+}
+
+.parag4_GVW{
+    position: absolute;
+    top: 264%;
+    padding-right: 5%;
+    padding-left: 54%;
+    font-size: medium;
+}
+
+.img4_GVW{
+    padding-top: 114%;
+    position: absolute;
+    width: 300px;
+    padding-left: 7%;
+    z-index: 0;
+}
+
+.img4-2_GVW{
+    padding-top: 114%;
+    position: absolute;
+    width: 300px;
+    padding-left: 30%;
+}
+
+.topo_GVW{
+    position: absolute;
+    top: 330%;
+    left: 4%;
+    text-align: center;
+}
+
+.rodape_GVW{
+    position: absolute;
+    top: 340%;
+    padding: 2%;
+    left: 40%;
+    text-align: center;
+}
+/* /GVW */
+
+
+/* GAB */
+.insta_GAB{
+    position: absolute;
+    width: 3%;
+    padding-top: 4%;
+    padding-left: 60%;
+}
+
+.miles{
+    width: 325px;
+    padding-top: 5%;
+}
+
+.GAB{
+    padding-top: 1%;
+    align-items: center;
+    text-align: center;
+    padding: 1% 22%;
+}
+
+.MainTitle_GAB{
+    padding-top: 2%;
+    text-align: center;
+}
+
+.illustrator{
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.title1_GAB{
+    position: absolute;
+    padding-top: 8%;
+    padding-left: 2%;
+    padding-right: 49%;
+    z-index: 2;
+}
+
+.parag1_GAB{
+    position: absolute;
+    padding-top: 12%;
+    padding-left: 2%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img1_GAB{
+    width: 650px;
+    padding-top: 2%;
+    padding-left: 51%;
+}
+
+.title2_GAB{
+    position: absolute;
+    padding-top: 10%;
+    padding-right: 8%;
+    padding-left: 66%;
+    z-index: 1;
+}
+
+.parag2_GAB{
+    position: absolute;
+    padding-top: 14%;
+    padding-right: 6%;
+    padding-left: 60%;
+    font-size: medium;
+}
+
+.img2_GAB{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+
+.title3_GAB{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 45%;
+    z-index: 1;
+}
+
+.parag3_GAB{
+    position: absolute;
+    padding-top: 14%;
+    padding-left: 8%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img3_GAB{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 51%;
+}
+
+.illustrator2{
+    text-align: center;
+    padding-top: 4%;
+}
+
+.title4_GAB{
+    position: absolute;
+    padding-top: 12%;
+    padding-right: 6%;
+    padding-left: 60%;
+    font-size: medium;
+    z-index: 1;
+}
+
+.parag4_GAB{
+    position: absolute;
+    padding-top: 16%;
+    padding-right: 6%;
+    padding-left: 48%;
+    font-size: medium;
+}
+
+.img4_GAB{
+    width: 400px;
+    padding-top: 6%;
+    padding-left: 14%;
+}
+
+.title5_GAB{
+    position: absolute;
+    padding-top: 12%;
+    padding-left: 7%;
+    padding-right: 45%;
+    z-index: 1;
+}
+
+.parag5_GAB{
+    position: absolute;
+    padding-top: 16%;
+    padding-left: 6%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img5_GAB{
+    width: 450px;
+    padding-top: 6%;
+    padding-left: 55%;
+}
+
+.title6_GAB{
+    position: absolute;
+    padding-top: 10%;
+    padding-right: 2%;
+    padding-left: 65%;
+    font-size: medium;
+    z-index: 1;
+}
+
+.parag6_GAB{
+    position: absolute;
+    padding-top: 14%;
+    padding-right: 6%;
+    padding-left: 55%;
+    font-size: medium;
+}
+
+.img6_GAB{
+    width: 600px;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+
+.title7_GAB{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 45%;
+    z-index: 1;
+}
+
+.parag7_GAB{
+    position: absolute;
+    padding-top: 14%;
+    padding-left: 8%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img7_GAB{
+    width: 600px;
+    padding-top: 6%;
+    padding-left: 55%;
+}
+
+.topo_GAB{
+    position: absolute;
+    top: 4400px;
+    left: 4%;
+    text-align: center;
+}
+
+.rodape_GAB{
+    position: absolute;
+    top: 4450px;
+    padding: 2%;
+    left: 40%;
+    text-align: center;
+}
+/* /GAB */
+
+
+/* Vinicius */
+.insta_Vini{
+    position: absolute;
+    width: 3%;
+    padding-top: 4%;
+    padding-left: 60%;
+}
+
+.vini{
+    width: 333px;
+    padding-top: 1%;
+}
+
+.ViniciusNB8{
+    padding-top: 1%;
+    align-items: center;
+    text-align: center;
+    padding: 1% 22%;
+}
+
+.MainTitle_Vini{
+    padding-top: 2%;
+    text-align: center;
+}
+
+.funkopop{
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.title1_Vini{
+    position: absolute;
+    padding-top: 5%;
+    padding-left: 19%;
+    padding-right: 10%;
+    z-index: 1;
+}
+
+.parag1_Vini{
+    position: absolute;
+    padding-top: 9%;
+    padding-left: 2%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img1_Vini{
+    width: 650px;
+    padding-top: 2%;
+    padding-left: 51%;
+}
+
+.title2_Vini{
+    position: absolute;
+    padding-top: 10%;
+    padding-right: 8%;
+    padding-left: 66%;
+    z-index: 1;
+}
+
+.parag2_Vini{
+    position: absolute;
+    padding-top: 14%;
+    padding-right: 6%;
+    padding-left: 53%;
+    font-size: medium;
+}
+
+.img2_Vini{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 4%;
+}
+
+.title3_Vini{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 45%;
+    z-index: 1;
+}
+
+.parag3_Vini{
+    position: absolute;
+    padding-top: 14%;
+    padding-left: 4%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img3_Vini{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 51%;
+}
+
+.title4_Vini{
+    position: absolute;
+    padding-top: 12%;
+    padding-right: 4%;
+    padding-left: 65%;
+    font-size: medium;
+    z-index: 1;
+}
+
+.parag4_Vini{
+    position: absolute;
+    padding-top: 16%;
+    padding-right: 6%;
+    padding-left: 48%;
+    font-size: medium;
+}
+
+.img4_Vini{
+    width: 400px;
+    padding-top: 6%;
+    padding-left: 14%;
+}
+
+.title5_Vini{
+    position: absolute;
+    padding-top: 12%;
+    padding-left: 11%;
+    padding-right: 45%;
+    z-index: 1;
+}
+
+.parag5_Vini{
+    position: absolute;
+    padding-top: 16%;
+    padding-left: 4%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img5_Vini{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 51%;
+}
+
+.title6_Vini{
+    position: absolute;
+    padding-top: 10%;
+    padding-right: 2%;
+    padding-left: 66%;
+    font-size: medium;
+    z-index: 1;
+}
+
+.parag6_Vini{
+    position: absolute;
+    padding-top: 14%;
+    padding-right: 6%;
+    padding-left: 50%;
+    font-size: medium;
+}
+
+.img6_Vini{
+    width: 600px;
+    padding-top: 6%;
+    padding-left: 4%;
+}
+
+.title7_Vini{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 19%;
+    padding-right: 45%;
+    z-index: 1;
+}
+
+.parag7_Vini{
+    position: absolute;
+    padding-top: 14%;
+    padding-left: 4%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img7_Vini{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 51%;
+}
+
+.title8_Vini{
+    position: absolute;
+    padding-top: 12%;
+    padding-right: 6%;
+    padding-left: 67%;
+    font-size: medium;
+    z-index: 1;
+}
+
+.parag8_Vini{
+    position: absolute;
+    padding-top: 16%;
+    padding-right: 4%;
+    padding-left: 54%;
+    font-size: medium;
+}
+
+.img8_Vini{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 4%;
+}
+
+.title9_Vini{
+    position: absolute;
+    padding-top: 12%;
+    padding-left: 20%;
+    padding-right: 50%;
+    z-index: 1;
+}
+
+.parag9_Vini{
+    position: absolute;
+    padding-top: 16%;
+    padding-left: 4%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img9_Vini{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 51%;
+}
+
+.title10_Vini{
+    position: absolute;
+    padding-top: 10%;
+    padding-right: 2%;
+    padding-left: 68%;
+    font-size: medium;
+    z-index: 1;
+}
+
+.parag10_Vini{
+    position: absolute;
+    padding-top: 14%;
+    padding-right: 6%;
+    padding-left: 51%;
+    font-size: medium;
+}
+
+.img10_Vini{
+    width: 600px;
+    padding-top: 6%;
+    padding-left: 4%;
+}
+
+.title11_Vini{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 45%;
+    z-index: 1;
+}
+
+.parag11_Vini{
+    position: absolute;
+    padding-top: 14%;
+    padding-left: 4%;
+    padding-right: 50%;
+    font-size: medium;
+}
+
+.img11_Vini{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 51%;
+}
+
+.title12_Vini{
+    position: absolute;
+    padding-top: 10%;
+    padding-right: 0%;
+    padding-left: 68%;
+    z-index: 2;
+}
+
+.parag12_Vini{
+    position: absolute;
+    padding-top: 14%;
+    padding-right: 6%;
+    padding-left: 54%;
+    font-size: medium;
+}
+
+.img12_Vini{
+    width: 650px;
+    padding-top: 6%;
+    padding-left: 4%;
+}
+
+.title13_Vini{
+    text-align: center;
+    padding-top: 4%;
+}
+
+.title14_Vini{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 16%;
+    padding-right: 45%;
+    z-index: 4;
+}
+
+.parag14_Vini{
+    position: absolute;
+    padding-top: 14%;
+    padding-left: 4%;
+    padding-right: 50%;
+    font-size: medium;
+    z-index: 3;
+}
+
+.img14_Vini{
+    position: absolute;
+    width: 300px;
+    padding-top: 8%;
+    padding-left: 52%;
+    z-index: 0;
+}
+
+.img14-2_Vini{
+    position: absolute;
+    width: 260px;
+    padding-top: 6%;
+    padding-left: 75%;
+}
+
+.title15_Vini{
+    position: absolute;
+    padding-top: 50%;
+    padding-left: 56%;
+    padding-right: 10%;
+    z-index: 2;
+}
+
+.parag15_Vini{
+    position: absolute;
+    padding-top: 54%;
+    padding-left: 50%;
+    padding-right: 10%;
+    font-size: medium;
+    z-index: 1;
+}
+
+.img15_Vini{
+    position: absolute;
+    width: 250px;
+    padding-top: 40%;
+    padding-left: 4%;
+    padding-right: 0%;
+    z-index: 0;
+}
+
+.img15-2_Vini{
+    width: 250px;
+    padding-top: 40%;
+    padding-left: 23%;
+}
+
+.topo_Vini{
+    position: absolute;
+    top: 8550px;
+    left: 4%;
+    text-align: center;
+}
+
+.rodape_Vini{
+    position: absolute;
+    top: 8600px;
+    padding: 2%;
+    left: 40%;
+    text-align: center;
+}
+/* /Vinicius */
